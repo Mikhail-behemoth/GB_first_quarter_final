@@ -6,18 +6,16 @@ void ArrayThreeSymbols(string[] arr)
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-    if(arr[i].Length <= 3)
+        if(arr[i].Length <= 3)
         {
-        arr2[count] = arr[i];
-        count++;
+            arr2[count] = arr[i];
+            count++;
         }
     }
-for (int i = 0; i < arr2.Length; i++)
+    for (int i = 0; i < arr2.Length; i++)
     {
         Console.Write($"{arr2[i]} ");
     }
-    Console.WriteLine();
 }
-
 
 ArrayThreeSymbols(array);
